@@ -154,6 +154,11 @@ img{
 /* professional experience start here */
 .professional-experience{
 }
+.professional-experience::after{
+    content: '';
+    display: table;
+    clear: both;
+}
 .professional-images{
     height: 100px;
     padding: 10px;

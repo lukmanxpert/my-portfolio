@@ -45,7 +45,7 @@ img{
     margin: 5px 10px;
     text-transform: uppercase;
     padding: 10px;
-    background-color: yellowgreen;
+    background-color: brown;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -63,6 +63,7 @@ img{
     width: 100%;
 }
 .nav-container{
+    
     background-color: salmon;
     padding: 1% 7%;
     text-align: center;
@@ -151,5 +152,113 @@ img{
 /* about me design end */
 
 /* professional experience start here */
-
+.professional-experience{
+}
+.professional-images{
+    height: 100px;
+    padding: 10px;
+}
+.work-experience, .education, .skills{
+    text-align: center;
+    margin: 20px 10px;
+    padding: 30px;
+    border-radius: 10px;
+    height: 650px;
+    transition: .2s;
+    background-color: tan;
+    color: white;
+}
+.work-experience:hover, .education:hover, .skills:hover{
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+}
+.card h2{
+    text-transform: uppercase;
+    background-color: gray;
+    border-radius: 2px;
+    padding: 5px 0;
+}
+.pro-exp-desc{
+    text-align: left;
+}
+.skill-container ul li{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.skill-container ul li::before{
+    content: '';
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(165, 42, 42, 0.26);
+    top: calc(100% + 5px);
+    border-radius: 3px;
+}
+.skill-container ul li::after{
+    content: '';
+    height: 20px;
+    position: absolute;
+    background-color: brown;
+    top: calc(100% + 5px);
+    border-radius: 3px;
+    left: 0;
+    width: 0;
+    transition: 0.5s;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: .5s;
+}
+.skill-container li.html::after{
+    animation-name: html;
+}
+.skill-container li.css::after{
+    animation-name: css;
+}
+.skill-container li.js::after{
+    animation-name: js;
+}
+.skill-container li.tailwind::after{
+    animation-name: tailwind;
+}
+.skill-container li.bootstrap::after{
+    animation-name: bootstrap;
+}
+.skill-container li.django::after{
+    animation-name: django;
+}
+@keyframes html {
+    to{
+        width: 90%;
+    }
+}
+@keyframes css {
+    to{
+        width: 80%;
+    }
+}
+@keyframes js {
+    to{
+        width: 60%;
+    }
+}
+@keyframes tailwind {
+    to{
+        width: 80%;
+    }
+}
+@keyframes bootstrap {
+    to{
+        width: 90%;
+    }
+}
+@keyframes django {
+    to{
+        width: 75%;
+    }
+}
 /* professional experience end here */

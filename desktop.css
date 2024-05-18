@@ -38,3 +38,16 @@
 /* professional experience start here */
 
 /* professional experience end here */
+
+/* contect me design start */
+.contact-me-container > hr{
+    display: none;
+}
+.archivement{
+    padding-right: 50px;
+}
+button{
+    width: 100px;
+    margin: 20px;
+}
+/* contect me design end */

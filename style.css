@@ -14,9 +14,6 @@ a{
     font-size: 1rem;
     color: white;
 }
-img{
-    
-}
 .dotted-hr{
     border: 5px dotted white;
     border-bottom: none;
@@ -155,8 +152,7 @@ img{
 /* about me design end */
 
 /* professional experience start here */
-.professional-experience{
-}
+
 .professional-images{
     height: 100px;
     padding: 10px;

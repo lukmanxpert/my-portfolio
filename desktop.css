@@ -51,3 +51,8 @@ button{
     margin: 20px;
 }
 /* contect me design end */
+/* footer design start here */
+.footer-menu a{
+    display: inline;
+}
+/* footer design end here */

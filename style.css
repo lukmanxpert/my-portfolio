@@ -308,7 +308,7 @@ button:hover{
     background-color: tan;
 }
 .icons{
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 5px;
     margin: 10px;
     background-color: salmon;
@@ -328,3 +328,30 @@ button:hover{
     clear: both;
 }
 /* contact me design end here */
+
+/* footer design start here */
+.footer{
+    background-color: black;
+    text-align: center;
+}
+.footer-menu{
+    padding: 20px;
+}
+.footer-menu a{
+    margin: 10px;
+    display: block;
+    margin-top: 15px;
+}
+.footer-menu a:hover{
+    color: yellow;
+}
+.footer-desc{
+    color: white;
+    padding: 20px;
+}
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* footer design end here */

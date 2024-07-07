@@ -64,10 +64,11 @@ a{
 }
 .nav-container{
     
+    width: 100%;
     background-color: salmon;
     padding: 1% 7%;
     text-align: center;
-    display: fixed;
+    z-index: 100;
 }
 .nav-container::after{
     content: '';
@@ -79,6 +80,7 @@ a{
 /* profile Design Start */
 .profile-container{
     text-align: center;
+    height: 100vh;
 }
 .profile-img-1{
     text-align: left;

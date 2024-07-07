@@ -14,6 +14,15 @@
 /* nav bar design start here */
 .logo{
     text-align: left;
+    height: 100px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: salmon;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .menu{
     flex-direction: row;
@@ -27,6 +36,7 @@
 .menu a{
     background-color: transparent;
 }
+
 /* nav bar design end here */
 
 /* about me design start here */

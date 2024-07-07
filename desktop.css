@@ -36,6 +36,11 @@
 .menu a{
     background-color: transparent;
 }
+.menu a:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+    background-color: salmon;
+}
 
 /* nav bar design end here */
 
